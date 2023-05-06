@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.featured{
+    flex: 2;
+    padding: 10px;
+    background-color: #1c1b1b;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 10px -1px rgba(255,255,231,0.64); 
+    box-shadow: 2px 4px 10px 1px rgba(255,255,231,0.64);
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: whitesmoke;
+
+        .title{
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+    }
+
+    .bottom{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        .featuredChart{
+            width: 120px;
+            height: 120px;
+
+        }
+
+        .title{
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: green
+        }
+
+        .descTitle{
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: whitesmoke;
+        }
+
+        .secondTitle{
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: green
+        }
+
+        .thirdTitle{
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            color: green
+        }
+
+        .summary{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+
+        .item{
+            text-align: center;
+        }
+
+        .itemTitle{
+            font-size: 14px;
+            color: rgb(92, 86, 86);;
+        }
+
+        .itemResult{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            font-size: 15px;
+
+            &.hotter{
+                color: rgb(190, 79, 79);
+            }
+            &.colder{
+                color: rgb(35, 106, 198);
+            }
+
+        }
+    }
+}
